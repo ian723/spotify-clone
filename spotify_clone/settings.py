@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'spotify_clone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'YOUR-NAME',
-        'USER': 'YOUR-USER',
-        'PASSWORD': 'PASSWORD',
-        'HOST': 'YOUR-HOST',
+        'NAME': 'Spotify-Clone',
+        'USER': 'Postgres',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
         'PORT': 5432
     }
 }
